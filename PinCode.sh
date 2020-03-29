@@ -2,7 +2,7 @@
 #pin="400088"
 #pin="A400088"
 #pin="400088B"
-pinPat="^[0-9]{6}$"
+pinPat="^[0-9]{3}[ ]?[0-9]{3}$"
 echo enter pincode
 read pin
 if [[ $pin =~ $pinPat ]];
